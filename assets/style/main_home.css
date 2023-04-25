@@ -1,0 +1,77 @@
+/********************************************* */
+.bg-1,.bg-2,.bg-3
+   {
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+  }
+.bg-1 h4 p,.bg-2 h4 p,.bg-3 h4 p
+   {
+    
+    color: white;
+  }
+  
+  .bg-1 {
+    background-image: url("/assets/img/couple-heureux-exterieur-pres-cafe_1268-21210.jpg" );
+   
+  }
+  .bg-2 {
+    background-image: url("/assets/img/rencontre\ exterieur.jpg" );
+  }
+  .bg-3 {
+    background-image: url("/assets/img/Premium.png" );
+  }
+
+
+  .bandeau1{
+    background-color: rgb(146, 139, 223);
+  height: 420px;
+  }
+  .imgTalk,.imgPresentation,.visitCard {
+    display: flex;
+    justify-content: space-evenly;
+  } 
+  .bandeau2{
+    background-color: rgb(193,184,229);
+  height: 420px;
+
+  }
+  .bandeau3{
+    background-color: rgb(193,184,229);
+  height: 420px;
+
+  }
+
+   .mockup-invitation,.mockup-conversation{
+position: relative;
+top: -100px;
+  
+}
+  main img:hover{
+    transform: scale(1.5);
+  }
+.mockup-match,.mockup-appli{
+position: relative;
+top: -200px;
+  
+}
+
+.mockup-vip,.mockup-abo{
+position: relative;
+top: -130px;
+  
+}
+ 
+
+.download{
+  padding: 50px;
+}
