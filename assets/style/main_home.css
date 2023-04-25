@@ -11,7 +11,7 @@
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+    text-align: center;
 
   }
 .bg-1 h4 p,.bg-2 h4 p,.bg-3 h4 p
@@ -74,4 +74,36 @@ top: -130px;
 
 .download{
   padding: 50px;
+  display: flex;
+justify-content: center;
+
+}
+.donwload-presentation{
+  
+  width: 25%;
+}
+.donwload-presentation p{
+  
+  color: black;
+}
+
+.logo-presentation{
+  text-align: center;
+}
+.logo-presentation img{
+  border-bottom: black 3px ridge;
+  padding-bottom: 25px;
+  animation: flotte 2s ease-in-out 0s infinite;
+}
+
+@keyframes flotte{
+0% {
+    transform: translateY(0px);
+}
+50%{
+    transform: translateY(-25px);
+}
+100% {
+    transform: translateY(0px);
+}
 }

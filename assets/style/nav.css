@@ -1,4 +1,4 @@
-header i {
+nav i {
  
     font-size: 50px;
     text-align: center;
@@ -41,10 +41,14 @@ header i {
 
 }
 
-.menu a,.connexion a {
-    color: white;
+.menu a {
+    color: black;
+    font-size: 20px;
 }
-
+.connexion a{
+    color: white;
+    font-size: 20px;
+}
 .connexion i {
     font-size: 25px;
 padding-right: 10px;
@@ -56,7 +60,7 @@ padding-right: 10px;
 flex-direction: column;
 display: none;
     z-index: 3;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(211,175,222);
     flex-wrap: wrap;
 
 
@@ -72,6 +76,7 @@ display: none;
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 10px;
+    padding: 30px;
+    border-top: 3px white solid;
 
 }
