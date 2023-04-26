@@ -1,0 +1,66 @@
+.meetFilters {
+    background: #f7f7f7;
+    color: #333;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.filterGroup {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.checkboxGroup {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.checkboxGroup input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+label[for=gender]+select option {
+    margin-right: 10px;
+}
+
+input[type=checkbox]+label {
+    margin-right: 10px;
+}
+
+.btnFilter {
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    background: #0019A7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btnFilter:hover {
+    background: #2957A1;
+}
+
+.meetProfiles {
+    background: url('/assets/img/meet/women/pexels-andrea-piacquadio-720327.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loveMeet .profile {
+    background: #E9D0EE;
+}

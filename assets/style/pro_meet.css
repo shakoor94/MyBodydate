@@ -1,0 +1,26 @@
+.meetProfilesPro {
+    background: url('/assets/img/meet/pro/pexels-flo-dahm-699459.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+
+
+.meetProfilesPro .profile {
+    background: #1E1E1E;
+    color: white;
+}
+
+.meetProfilesPro .profile .profilIntro {
+    color: white;
+}
