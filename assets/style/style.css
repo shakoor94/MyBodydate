@@ -1,5 +1,6 @@
 @import url(/assets/style/nav.css);
 @import url(/assets/style/main_home.css);
+@import url(/assets/style/header.css);
 * {
     scroll-behavior: smooth;
     font-family: 'Comfortaa', sans-serif;
@@ -26,69 +27,37 @@ body.dark-mode {
     text-decoration: underline;
 }
 
-/*********************** Navigation ****************/
 
-/* nav {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-} */
 
-/* nav ul {
-    list-style: none;
-    display: flex;
-}
 
-nav li {
-    margin-right: 60px;
-} */
 
-nav li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-nav li a img {
-    width: 120px;
-}
-
-.loginBtn {
-    border-radius: 5px;
-    background-color: #0019A7;
-    padding: 5px;
-  
-}
 
 
 
 /************************* Header *************************/
-header {
+/* header {
     position: relative;
     height: 600px;
     background-image: url('/assets/img/img-header.jpg');
     background-size: 100%;
     background-position: center center;
 
-}
+} */
 
-.hero {
+/* .hero {
     position: absolute;
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
-}
+} */
 
-.hero h1 {
+/* .hero h1 {
     font-size: 1.3rem;
     margin-bottom: 20px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .app-logo-container {
     display: flex;
@@ -101,122 +70,35 @@ header {
 
 /************************* Main *************************/
 
-main {
+ main {
     margin-top: 60px;
-}
+} 
 
 h2 {
     text-align: center;
 }
 
-/*********************** Section Presentation ****************/
-.presentation {
-    margin-top: 60px;
-    
-    opacity: 0.9;
-    position: relative;
-}
-
-.presentationTitle {
-    margin-top: 20px;
-}
 
 
-h3 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.presentationText {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 30px;
-    line-height: 1.5;
-}
-.text-bg1 {
-    display: inline-block;
-    color: rgb(249, 249, 249);
-margin: auto;
-    line-height: 1.5;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: rgb(0, 25, 167,0.8);;
-}
-.text-bg2 {
-    display: inline-block;
-    color: rgb(249, 249, 249);
-margin: auto;
-    line-height: 1.5;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: rgb(0, 25, 167,0.8);;
-}
-.text-bg3 {
-    display: inline-block;
-    color: rgb(249, 249, 249);
-margin: auto;
-    line-height: 1.5;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: rgb(0, 25, 167,0.8);;
-}
-
-/* .imgTalk {
-    display: flex;
-    justify-content: center;
-} */
-
-.imgTalk img {
-    width: 250px;
-    margin-top: 20px;
-}
-
-h4 {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-}
 
 
-/* .imgPresentation {
-    display: flex;
-    margin-left: 30px;
-    justify-content: center;
-} */
-
-.imgPresentation img {
-    width: 250px;
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-
-.imgTalk img {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.imgTalk.appear img {
-    opacity: 1;
-}
 
 
-/* .visitCard {
-    display: flex;
-    justify-content: center;
-} */
 
-.visitCard img {
-    width: 250px;
-    margin-bottom: 120px;
-    margin-top: 50px;
-}
 
-.premiumText {
-    color: rgb(255, 255, 255);
-    margin-top: 20px;
-    text-align: center;
-    font-size: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

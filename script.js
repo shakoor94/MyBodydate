@@ -8,9 +8,9 @@ themeToggle.addEventListener('click', function () {
 
 
     if (body.classList.contains('dark-mode')) {
-        themeToggle.innerText = 'Mode clair';
+        themeToggle.style.color = 'white';
     } else {
-        themeToggle.innerText = 'Mode sombre';
+        themeToggle.style.color = 'black';
     }
 });
 

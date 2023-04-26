@@ -1,19 +1,19 @@
 nav i {
- 
     font-size: 50px;
     text-align: center;
 }
-.sombre{
-    background-color: rgb(211,175,222);
+
+.sombre {
+    background-color: rgb(211, 175, 222);
     position: fixed;
     width: 100%;
     z-index: 990;
 }
- #theme-toggle{
+
+#theme-toggle {
     position: relative;
     left: 50%;
-} 
-
+}
 
 .navbar {
     position: fixed;
@@ -23,52 +23,60 @@ nav i {
     align-items: center;
     z-index: 100;
     padding: 15px;
-    background-color: rgb(211,175,222);
+    background-color: rgb(211, 175, 222,0.9);
     font-size: large;
-    top:50px
+    top: 50px
+}
+.loginBtn {
+    border-radius: 5px;
+    background-color: #0019A7;
+    padding: 5px;
   
 }
-.logo img{
+.logo img {
     width: 200px;
 }
-.logo,.connexion {
+
+.logo,
+.connexion {
     list-style: none;
 }
 
 .menu li {
     display: inline-block;
     padding-right: 50px;
-
 }
 
 .menu a {
     color: black;
     font-size: 20px;
 }
-.connexion a{
+
+.connexion a {
     color: white;
     font-size: 20px;
 }
+
 .connexion i {
     font-size: 25px;
-padding-right: 10px;
+    padding-right: 10px;
 }
 
 .sous-menu {
     text-align: center;
     position: absolute;
-flex-direction: column;
-display: none;
+    flex-direction: column;
+    display: none;
     z-index: 3;
-    background-color: rgb(211,175,222);
+    background-color: rgb(211, 175, 222);
     flex-wrap: wrap;
-
-
 }
-.fa-sharp{
+
+.fa-sharp {
     font-size: large;
 }
-.sous menu a{
+
+.sous menu a {
     color: white;
 }
 
@@ -79,4 +87,14 @@ display: none;
     padding: 30px;
     border-top: 3px white solid;
 
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav li a img {
+    width: 120px;
 }

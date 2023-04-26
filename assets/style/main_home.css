@@ -1,109 +1,321 @@
+.tchat {
+  margin-top: 40px;
+  position: relative;
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+  width: 35%;
+  height: 500px;
+  border-radius: 20px;
+margin-left: 15%;
+}
+
+.tchat1 {
+  position: absolute;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: rgb(29, 108, 227);
+  border-radius: 10px;
+  left: 5%;
+ top: 10%;
+}
+
+.tchat2 {
+  position: absolute;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: rgb(212, 107, 216);
+  border-radius: 10px;
+  right: 5%;
+  top:25%;
+}
+
+.tchat3 {
+  width: 50%;
+  position: absolute;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: rgb(29, 108, 227);
+  border-radius: 10px;
+  left: 5%;
+  top: 40%;
+}
+
+.tchat4 {
+  position: absolute;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: rgb(212, 107, 216);
+  border-radius: 10px;
+right: 5%;
+  top: 55%;
+}
+.tchat5 {
+  width: 50%;
+  position: absolute;
+  padding: 15px;
+  margin-bottom: 50px;
+background-color: rgb(29, 108, 227);
+  border-radius: 10px;
+left: 5%;
+  top: 65%;
+}
+
+
+
+
+
 /********************************************* */
-.bg-1,.bg-2,.bg-3
-   {
-    
-    padding-top: 200px;
-    padding-bottom: 200px;
-    width: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
+.bg-1,
+.bg-2,
+.bg-3 {
 
-  }
-.bg-1 h4 p,.bg-2 h4 p,.bg-3 h4 p
-   {
-    
-    color: white;
-  }
-  
-  .bg-1 {
-    background-image: url("/assets/img/couple-heureux-exterieur-pres-cafe_1268-21210.jpg" );
-   
-  }
-  .bg-2 {
-    background-image: url("/assets/img/rencontre\ exterieur.jpg" );
-  }
-  .bg-3 {
-    background-image: url("/assets/img/Premium.png" );
-  }
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
 
-
-  .bandeau1{
-    background-color: rgb(146, 139, 223);
-  height: 420px;
-  }
-  .imgTalk,.imgPresentation,.visitCard {
-    display: flex;
-    justify-content: space-evenly;
-  } 
-  .bandeau2{
-    background-color: rgb(193,184,229);
-  height: 420px;
-
-  }
-  .bandeau3{
-    background-color: rgb(193,184,229);
-  height: 420px;
-
-  }
-
-   .mockup-invitation,.mockup-conversation{
-position: relative;
-top: -100px;
-  
-}
-  main img:hover{
-    transform: scale(1.5);
-  }
-.mockup-match,.mockup-appli{
-position: relative;
-top: -200px;
-  
 }
 
-.mockup-vip,.mockup-abo{
-position: relative;
-top: -130px;
-  
-}
- 
+.bg-1 h4 p,
+.bg-2 h4 p,
+.bg-3 h4 p {
 
-.download{
+  color: white;
+}
+
+.bg-1 {
+  background-image: url("/assets/img/couple-heureux-exterieur-pres-cafe_1268-21210.jpg");
+
+}
+
+.bg-2 {
+  background-image: url("/assets/img/rencontre\ exterieur.jpg");
+}
+
+.bg-3 {
+  background-image: url("/assets/img/Premium.png");
+}
+
+
+.bandeau1 {
+  background-color: rgb(146, 139, 223);
+  height: 420px;
+}
+
+.imgTalk,
+.imgPresentation,
+.visitCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bandeau2 {
+  background-color: rgb(193, 184, 229);
+  height: 420px;
+
+}
+
+.bandeau3 {
+  background-color: rgb(193, 184, 229);
+  height: 420px;
+
+}
+
+.mockup-invitation,
+.mockup-conversation {
+  position: relative;
+  top: -100px;
+
+}
+
+main img:hover {
+  transform: scale(1.5);
+}
+
+.mockup-match,
+.mockup-appli {
+  position: relative;
+  top: -200px;
+
+}
+
+.mockup-vip,
+.mockup-abo {
+  position: relative;
+  top: -130px;
+
+}
+
+
+.download {
   padding: 50px;
   display: flex;
-justify-content: center;
+  justify-content: space-evenly;
+  background-color: rgb(154, 156, 156);
+  width: 50%;
+  margin: auto;
+}
+
+.donwload-presentation {
+  width: 50%;
 
 }
-.donwload-presentation{
-  
-  width: 25%;
-}
-.donwload-presentation p{
-  
+
+.donwload-presentation p {
+
   color: black;
 }
 
-.logo-presentation{
+.portrait {
+  width: 100%;
+}
+
+.logo-presentation {
   text-align: center;
 }
-.logo-presentation img{
+
+.logo-presentation img {
   border-bottom: black 3px ridge;
   padding-bottom: 25px;
   animation: flotte 2s ease-in-out 0s infinite;
 }
 
-@keyframes flotte{
-0% {
+@keyframes flotte {
+  0% {
     transform: translateY(0px);
-}
-50%{
+  }
+
+  50% {
     transform: translateY(-25px);
-}
-100% {
+  }
+
+  100% {
     transform: translateY(0px);
+  }
 }
+
+
+/*********************** Section Presentation ****************/
+.presentation {
+  margin-top: 60px;
+
+  opacity: 0.9;
+  position: relative;
+}
+
+.presentationTitle {
+  margin-top: 20px;
+}
+
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.presentationText {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.text-bg1 {
+  display: inline-block;
+  color: rgb(249, 249, 249);
+  margin: auto;
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(0, 25, 167, 0.8);
+  ;
+}
+
+.text-bg2 {
+  display: inline-block;
+  color: rgb(249, 249, 249);
+  margin: auto;
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(0, 25, 167, 0.8);
+  ;
+}
+
+.text-bg3,.premiumText {
+  display: inline-block;
+  color: rgb(249, 249, 249);
+  margin: auto;
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(0, 25, 167, 0.8);
+  ;
+}
+
+
+/* .imgTalk {
+  display: flex;
+  justify-content: center;
+} */
+
+.imgTalk img {
+  width: 250px;
+  margin-top: 20px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+
+/* .imgPresentation {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+} */
+
+.imgPresentation img {
+  width: 250px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.imgTalk img {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.imgTalk.appear img {
+  opacity: 1;
+}
+
+
+/* .visitCard {
+  display: flex;
+  justify-content: center;
+} */
+
+.visitCard img {
+  width: 250px;
+  margin-bottom: 120px;
+  margin-top: 50px;
+}
+
+.premiumText {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+aside {
+  width: 45%;
 }
